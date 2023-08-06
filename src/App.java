@@ -1,5 +1,12 @@
+import wrapper.WrapperClase;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Clase001.claseStrings();
+        Clase064.BucleEtiquetasBuscar();
+        WrapperClase.IntegerWrapper();
+        WrapperClase.ejemploMetodoGetClass();
+        WrapperClase.pasarArgumentoPorValor();
+        WrapperClase.pasarPorReferencia();
     }
 }
